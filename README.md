@@ -2,19 +2,35 @@
 
 ## 📌 About
 
-A simple log analysis tool built as part of my learning journey in cybersecurity and SOC analysis.
+This project is part of my journey into cybersecurity and SOC analysis.
 
-The goal of this project is to understand how log parsing, filtering, and keyword analysis work in real-world scenarios.
+The tool was developed step by step from scratch: I designed the logic, implemented the features manually, tested different scenarios, and refined the code through multiple iterations.
+
+During development, I intentionally experimented with the code — breaking and fixing it — to better understand how log parsing and keyword analysis work in practice.
+
+As a result, I have a solid understanding of how the tool works internally and can confidently explain its behavior and logic.
+
+---
+
+## 🎯 SOC Relevance
+
+This tool simulates basic tasks performed by SOC analysts:
+
+- Searching logs for suspicious keywords (e.g. `error`, `fail`, `kernel`)
+- Identifying patterns in system activity
+- Prioritizing events based on frequency
+- Working with raw log data in a CLI environment
 
 ---
 
 ## ⚙️ Features
 
-- Reads log files from user input
-- Searches multiple keywords
-- Case-insensitive matching
+- Reads system log files (e.g. `/var/log/syslog`)
+- Accepts user-defined keywords
+- Case-insensitive search
 - Counts occurrences per keyword
-- Sorts results by frequency
+- Displays matching lines
+- Sorts results by frequency (descending)
 
 ---
 
