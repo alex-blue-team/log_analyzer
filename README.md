@@ -53,3 +53,11 @@ Watch the tool in action:
 git clone https://github.com/alex-blue-team/log_analyzer
 cd log_analyzer
 python3 log_analyzer_v3.py
+
+
+## 🔄 Version History
+
+- **v1.0** – Basic log analysis: search for a single word in log files  
+- **v2.0** – Added support for searching multiple words simultaneously  
+- **v3.0** – Added counting of each found word per line  
+- **v4.1** – Introduced exact word matching to reduce false positives
